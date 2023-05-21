@@ -1,3 +1,4 @@
+import Card from "./Card";
 import styles from "./Home.module.css";
 const Home = () => {
   return (
@@ -63,181 +64,15 @@ const Home = () => {
         your day to day knowledge and stay update with latest news and industry
         trends
       </div>
-      <div className={styles.pexelsCottonbro48425731Parent}>
-        <img
-          className={styles.pexelsCottonbro48425731Icon}
-          alt=""
-          src="/pexelscottonbro4842573-1@2x.png"
-        />
-        <div className={styles.groupChild3} />
-        <img className={styles.unionIcon} alt="" src="/union.svg" />
-        <img className={styles.ellipseIcon} alt="" src="/ellipse-7.svg" />
-        <img
-          className={styles.faSolidprayingHandsIcon}
-          alt=""
-          src="/fasolidprayinghands.svg"
-        />
-        <div className={styles.groupParent}>
-          <div className={styles.bieyeFillParent}>
-            <img className={styles.bieyeFillIcon} alt="" src="/bieyefill.svg" />
-            <div className={styles.div}>200</div>
-          </div>
-          <div className={styles.fecommentParent}>
-            <img className={styles.bieyeFillIcon} alt="" src="/fecomment.svg" />
-            <div className={styles.div1}>200</div>
-          </div>
-          <div className={styles.clarityshareSolidParent}>
-            <img
-              className={styles.bieyeFillIcon}
-              alt=""
-              src="/claritysharesolid.svg"
-            />
-            <div className={styles.div2}>200</div>
-          </div>
-          <div className={styles.wpflikeParent}>
-            <img className={styles.bieyeFillIcon} alt="" src="/wpflike.svg" />
-            <div className={styles.div3}>200</div>
-          </div>
-        </div>
-        <img className={styles.groupChild4} alt="" src="/group-9.svg" />
-        <img className={styles.groupChild5} alt="" src="/group-24.svg" />
-        <div className={styles.butIMust}>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and
-        </div>
-        <div className={styles.butIMust1}>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the system, and expound the actual teachings of the great
-          explorer of the truth, the master-builder of human happiness.
-        </div>
-        <div className={styles.rectangleParent3}>
-          <div className={styles.groupChild6} />
-          <div className={styles.discoverNow}>Discover Now</div>
-        </div>
+      <div className="cardbox">
+       
+      <Card/>
+      <Card/>
+      <Card/>
       </div>
-      <div className={styles.pexelsCottonbro48425731Group}>
-        <img
-          className={styles.pexelsCottonbro48425731Icon1}
-          alt=""
-          src="/pexelscottonbro4842573-11@2x.png"
-        />
-        <div className={styles.groupChild7} />
-        <img className={styles.unionIcon1} alt="" src="/union1.svg" />
-        <img className={styles.groupChild8} alt="" src="/ellipse-71.svg" />
-        <img
-          className={styles.faSolidprayingHandsIcon1}
-          alt=""
-          src="/fasolidprayinghands1.svg"
-        />
-        <div className={styles.groupContainer}>
-          <div className={styles.bieyeFillGroup}>
-            <img
-              className={styles.bieyeFillIcon1}
-              alt=""
-              src="/bieyefill1.svg"
-            />
-            <div className={styles.div4}>200</div>
-          </div>
-          <div className={styles.fecommentGroup}>
-            <img
-              className={styles.bieyeFillIcon1}
-              alt=""
-              src="/fecomment1.svg"
-            />
-            <div className={styles.div5}>200</div>
-          </div>
-          <div className={styles.clarityshareSolidGroup}>
-            <img
-              className={styles.bieyeFillIcon1}
-              alt=""
-              src="/claritysharesolid1.svg"
-            />
-            <div className={styles.div6}>200</div>
-          </div>
-          <div className={styles.wpflikeGroup}>
-            <img className={styles.bieyeFillIcon1} alt="" src="/wpflike1.svg" />
-            <div className={styles.div7}>200</div>
-          </div>
-        </div>
-        <img className={styles.groupChild9} alt="" src="/group-91.svg" />
-        <img className={styles.groupChild10} alt="" src="/group-241.svg" />
-        <div className={styles.butIMust2}>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and
-        </div>
-        <div className={styles.butIMust3}>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the system, and expound the actual teachings of the great
-          explorer of the truth, the master-builder of human happiness.
-        </div>
-        <div className={styles.rectangleParent4}>
-          <div className={styles.groupChild11} />
-          <div className={styles.discoverNow1}>Discover Now</div>
-        </div>
-      </div>
-      <div className={styles.pexelsCottonbro48425731Container}>
-        <img
-          className={styles.pexelsCottonbro48425731Icon1}
-          alt=""
-          src="/pexelscottonbro4842573-12@2x.png"
-        />
-        <div className={styles.groupChild7} />
-        <img className={styles.unionIcon1} alt="" src="/union2.svg" />
-        <img className={styles.groupChild8} alt="" src="/ellipse-72.svg" />
-        <img
-          className={styles.faSolidprayingHandsIcon1}
-          alt=""
-          src="/fasolidprayinghands2.svg"
-        />
-        <div className={styles.groupContainer}>
-          <div className={styles.bieyeFillGroup}>
-            <img
-              className={styles.bieyeFillIcon1}
-              alt=""
-              src="/bieyefill2.svg"
-            />
-            <div className={styles.div4}>200</div>
-          </div>
-          <div className={styles.fecommentContainer}>
-            <img
-              className={styles.fecommentIcon2}
-              alt=""
-              src="/fecomment2.svg"
-            />
-            <div className={styles.div9}>200</div>
-          </div>
-          <div className={styles.clarityshareSolidGroup}>
-            <img
-              className={styles.bieyeFillIcon1}
-              alt=""
-              src="/claritysharesolid2.svg"
-            />
-            <div className={styles.div6}>200</div>
-          </div>
-          <div className={styles.wpflikeGroup}>
-            <img className={styles.bieyeFillIcon1} alt="" src="/wpflike2.svg" />
-            <div className={styles.div7}>200</div>
-          </div>
-        </div>
-        <img className={styles.groupChild9} alt="" src="/group-92.svg" />
-        <img className={styles.groupChild10} alt="" src="/group-242.svg" />
-        <div className={styles.butIMust4}>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and
-        </div>
-        <div className={styles.butIMust3}>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the system, and expound the actual teachings of the great
-          explorer of the truth, the master-builder of human happiness.
-        </div>
-        <div className={styles.rectangleParent4}>
-          <div className={styles.groupChild11} />
-          <div className={styles.discoverNow2}>Discover Now</div>
-        </div>
-      </div>
+      
+      
+      
       <div className={styles.influencersPickParent}>
         <b className={styles.influencersPick}>Influencer’s Pick</b>
         <img
