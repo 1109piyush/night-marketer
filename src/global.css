@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-literata: Literata;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-17xl: 2.25rem;
+  --font-size-xl: 1.25rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-lg: 1.13rem;
+  --font-size-xs: 0.75rem;
+  --font-size-3xs: 0.63rem;
+  --font-size-smi-2: 0.76rem;
+  --font-size-2xs-9: 0.68rem;
+  --font-size-base: 1rem;
+  --font-size-7xl: 1.63rem;
+  --font-size-4xs: 0.56rem;
+  --font-size-2xs: 0.69rem;
+  --font-size-5xs: 0.5rem;
+  --font-size-41xl: 3.75rem;
+  --font-size-xs-8: 0.74rem;
+  --font-size-mini-7: 0.92rem;
+  --font-size-2xs-6: 0.66rem;
+  --font-size-sm-2: 0.83rem;
+  --font-size-4xl-2: 1.45rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #848a8f;
+  --color-gray-200: rgba(255, 255, 255, 0.15);
+  --color-gray-300: rgba(0, 0, 0, 0.5);
+  --color-black: #000;
+  --color-darkslategray-100: #3c4852;
+  --color-firebrick: #be0006;
+  --color-gainsboro: #e5e5e5;
+  --color-silver: #c2c2c2;
+  --color-dimgray: #7d6b7d;
+  --color-whitesmoke-100: #f1f1f1;
+
+  /* Paddings */
+  --padding-8xs: 0.31rem;
+  --padding-3xs: 0.63rem;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-5xs: 8px;
+  --br-8xs: 5px;
+  --br-11xl-4: 30.4px;
+  --br-4xs-9: 8.9px;
+  --br-3xl: 22px;
+  --br-3xs-3: 9.3px;
+}
